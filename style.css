@@ -33,11 +33,12 @@ nav li {
     padding: 5px;
     border: 1px solid grey;
     box-shadow: 2px 2px 5px grey;
+    text-align: center;
+    margin: 0 auto;
+    padding-left: 70px;
+    padding-right: 70px; 
 
 }
 img {
     width: 50vw;
 }
-/* .more-articles {
-    column-count: 2;
-} */
