@@ -5,13 +5,12 @@
 body {
     font-family: Source Sans Pro;
     background-color: #eee;
-    border-color: #eee;
     color: black;
-    border: 5px solid lightblue;
     width: cover;
     border-radius: 10px;
     padding: 30px 30px;
-    box-shadow: 5px 5px pink;
+    box-shadow: 2px 2px 4px silver;
+    border: .5em ridge darkturquoise;
 
 }
 header {
@@ -34,11 +33,12 @@ nav li {
     border: 1px solid grey;
     box-shadow: 2px 2px 5px grey;
     text-align: center;
-    margin: 0 auto;
-    padding-left: 70px;
-    padding-right: 70px; 
-
+    margin: auto;
+    font-weight: bold;
 }
 img {
     width: 50vw;
+}
+#listahan {
+    text-align: center;
 }
