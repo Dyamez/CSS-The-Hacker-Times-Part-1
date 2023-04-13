@@ -24,16 +24,18 @@ p {
 #frontPage {
     color: #dd3232;
     text-align: center;
+    padding-top: 60px;
 }
 nav li {
+    
     color: #777;
-    list-style-type: none;
-    display: inline-block;
-    padding: 5px;
+    list-style-type: none; 
+    display: inline-block;  
+    padding: 5px; 
     border: 1px solid grey;
     box-shadow: 2px 2px 5px grey;
-    text-align: center;
-    margin: auto;
+     
+    margin: auto; 
     font-weight: bold;
 }
 img {
@@ -41,4 +43,11 @@ img {
 }
 #listahan {
     text-align: center;
+}
+nav {
+    position: fixed;
+    top: 145px;
+    text-align: center;
+    width: 97%;
+    background-color: white;
 }
